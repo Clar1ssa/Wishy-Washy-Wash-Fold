@@ -1,3 +1,11 @@
 p {background-color: blue;
 text:black;
 text-align: center;}
+
+h{background-color: blue;}
+li{background-color: yellow;
+text-align: center;
+border: solid;
+border-color: red;}
+
+div {border-color: yellow;}
