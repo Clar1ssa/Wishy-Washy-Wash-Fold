@@ -1,11 +1,88 @@
-p {background-color: blue;
-text:black;
+.first {
+    background-color: yellow;
+    border: red;
+    text-align: center;
+    border: 5px solid red;
+}
+
+.list {background-color:yellow;
+border: 5px solid red ;
+gap: 5px;
+padding: 30px;}
+
+h1{text-align: center;}
+
+p1{text-align: center;}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto 220px,1fr);
+    gap: 20px;
+    max-width: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.actions {
+    background-color:whitesmoke;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p {background-color:white;
+    text:blue;
+    font-family: Arial sans-serif;
 text-align: center;}
 
-h{background-color: blue;}
-li{background-color: yellow;
-text-align: center;
-border: solid;
-border-color: red;}
+h2{color: red;
+    text-align: center;}
+
+h5{text-align: center;
+}
+h1 {background-color: blue;
+    color: white;
+    border-color: red;
+text-align: center;}
+
+}
+
+
+
 
 div {border-color: yellow;}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-rows: 50px;
+    gap: 10px;
+}
+
+.item {
+    background-color: purple;
+    padding: 20px;
+}
