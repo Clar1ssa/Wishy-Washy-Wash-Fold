@@ -5,18 +5,31 @@
     border: 5px solid red;
 }
 
-.list {background-color:yellow;
+
+header {
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+
+
+
+
+
+.list {background-color:whitesmoke;
 border: 5px solid red ;
 gap: 5px;
-padding: 30px;}
+padding: 20px;}
 
 h1{text-align: center;}
 
-p1{text-align: center;}
+.p1 {text-align: center;}
 
 .grid-item img {
-    width: 100%;
-    height: auto;
+    width: 80%;
+    height: 50px;
     border-radius: 8px;
     margin-bottom: 1em;
     text-align: center;
@@ -38,8 +51,35 @@ p1{text-align: center;}
     
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    padding: 1rem 2rem;
+    color: blue;
 
+}
 
+.nav-logo {
+    font-size: 1 rem;
+    font-weight: bold;
+    color: yellow; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex; 
+    gap: 2 rem; 
+    margin: 1;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: yellow;
+    font-weight: 500;
+    
+}
 
 
 
@@ -58,7 +98,7 @@ p {background-color:white;
     font-family: Arial sans-serif;
 text-align: center;}
 
-h2{color: red;
+h2{color: rgb(214, 247, 27)(145, 255, 0);
     text-align: center;}
 
 h5{text-align: center;
