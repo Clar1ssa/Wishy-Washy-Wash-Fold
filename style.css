@@ -1,0 +1,97 @@
+.first {
+    background-color: yellow;
+    border: red;
+    text-align: center;
+    border: 5px solid red;
+}
+
+.list {background-color:yellow;
+border: 5px solid red ;
+gap: 5px;
+padding: 30px;}
+
+h1{text-align: center;}
+
+p1{text-align: center;}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(243, 223, 223);
+    font-family: Arial,helvetica, sans-serif;
+    padding: 30px;
+}
+
+header {
+    background-color: rgb(243, 223, 223);
+    padding: 30px;
+    text-align: center;
+}
+.nav {
+    overflow: hidden;
+    background-color:rgb(243, 223, 223);
+}
+
+.nav a {
+    display: block;
+    float: left;
+    color: blue;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgb(201, 221, 25);    
+}
+
+ .grid-container {      
+    display: grid;
+    grid-template-columns: repeat(auto 220px,1fr);
+    gap: 20px;
+    max-width: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+ .actions {
+    background-color:rgb(225, 224, 233);
+    text-align: center;    
+}
+
+ .p {
+    background-color:white;
+    flex:blue;
+    font-family: Arial sans-serif;
+text-align: center;}
+
+h2{color: red;
+    text-align: center;}
+
+h5{text-align: center;
+}
+
+h1 {background-color: blue;
+    color: white;
+    border-color: red;
+text-align: center;}
+
+ div {border-color: yellow;}
+
+ .container {
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr;
+    grid-template-rows: 50px;
+    gap: 10px;
+}
+
+ .item {
+    background-color: purple;
+    padding: 20px;
+}
